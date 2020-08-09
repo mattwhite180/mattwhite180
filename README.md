@@ -17,4 +17,4 @@
 
 [Where I got Github stats cards](https://github.com/anuraghazra/github-readme-stats)
 
-[Where I got icons](shields.io)
+[Where I got icons](https://shields.io/)
