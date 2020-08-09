@@ -6,3 +6,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: I love to play chess
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=mattwhite180&theme=vue)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mattwhite180&layout=compact)](https://github.com/mattwhite180/BingoProject)
