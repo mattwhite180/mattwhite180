@@ -12,6 +12,6 @@
 
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=mattwhite180&theme=vue&show_icons=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mattwhite180&layout=compact)](https://github.com/mattwhite180/BingoProject)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mattwhite180&layout=compact)](https://github.com/mattwhite180/)
 
 
