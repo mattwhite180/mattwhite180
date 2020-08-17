@@ -118,7 +118,6 @@ fi
 
 if [ -f ~/.bash_prompt ]; then
     . ~/.bash_prompt
-    PS1=$CUSTOMIZED_PS1
 fi
 
 
