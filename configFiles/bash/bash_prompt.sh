@@ -1,5 +1,3 @@
-
-
 # Text Colors
 BLACK=30
 BLUE=34
@@ -25,14 +23,16 @@ NORMAL_TEXT=0
 UNDERLINED=4
 INVERTED_BACKGROUND=7
 
-parse_git_branch() {
-     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
-
-get_git_status() {
-    if [[ $(git status -s 2> /dev/null | wc | awk '{print $1}') -gt 0 ]]
+git_prompt() {
+    if [[ -n $(git status 2> /dev/null) ]]
     then
-        echo '['$(git status -s 2> /dev/null | wc | awk '{print $1}')']'
+        echo -n "($(git branch --show-current 2> /dev/null)"
+        if [[ $(git status -s 2> /dev/null | wc | awk '{print $1}') -gt 0 ]]
+        then
+            echo -n "[$(git status -s 2> /dev/null | wc | awk '{print $1}')])"
+        else
+            echo -n ")"
+        fi
     fi
 }
 
@@ -42,7 +42,7 @@ PROMPT_AT="\[\033["$GREEN"m\]@"
 PROMPT_HOSTNAME="\[\033["$RED"m\]\h"
 PROMPT_COLON="\[\033[00m\]:"
 PROMPT_WORKDIR="\[\033[;"$UNDERLINED";"$YELLOW"m\]\w"
-PROMPT_GIT="\[\033["$NORMAL_TEXT";"$CYAN"m\]\$(parse_git_branch)\$(get_git_status)"
+PROMPT_GIT="\[\033["$NORMAL_TEXT";"$CYAN"m\] \$(git_prompt)"
 PROMPT_NEWLINE="\[\033["$NORMAL_TEXT";"$CYAN"m\]\n"
 PROMPT_SYMBOL="\[\033["$GREEN"m\][\$]: "
 PROMPT_CLEANUP="\[\033["$WHITE"m\]"

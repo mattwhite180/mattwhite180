@@ -116,11 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -f ~/.bash_prompt ]; then
-    . ~/.bash_prompt
+if [ -f ~/.bash_prompt.sh ]; then
+    . ~/.bash_prompt.sh
 fi
 
-export LANG=C
+export LANG=C 
 
 glog () {
 	git log --pretty="%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s" --date=short
