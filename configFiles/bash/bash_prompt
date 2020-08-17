@@ -32,7 +32,7 @@ parse_git_branch() {
 get_git_status() {
     if [[ $(git status -s 2> /dev/null | wc | awk '{print $1}') -gt 0 ]]
     then
-        git status -s 2> /dev/null | wc | awk '{print $1}'
+        echo '['$(git status -s 2> /dev/null | wc | awk '{print $1}')']'
     fi
 }
 
@@ -42,7 +42,7 @@ PROMPT_AT="\[\033["$GREEN"m\]@"
 PROMPT_HOSTNAME="\[\033["$RED"m\]\h"
 PROMPT_COLON="\[\033[00m\]:"
 PROMPT_WORKDIR="\[\033[;"$UNDERLINED";"$YELLOW"m\]\w"
-PROMPT_GIT="\[\033["$NORMAL_TEXT";"$GREEN"m\]\$(parse_git_branch)\$(get_git_status)"
+PROMPT_GIT="\[\033["$NORMAL_TEXT";"$CYAN"m\]\$(parse_git_branch)\$(get_git_status)"
 PROMPT_NEWLINE="\[\033["$NORMAL_TEXT";"$CYAN"m\]\n"
 PROMPT_SYMBOL="\[\033["$GREEN"m\][\$]: "
 PROMPT_CLEANUP="\[\033["$WHITE"m\]"
