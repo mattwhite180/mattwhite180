@@ -6,7 +6,7 @@
 
 ---
 
-- 🔭 I’m currently working on some personal full stack development projects (see pinned repos)
+- 🔭 I’m currently working on some personal full stack development projects
 - 🌱 I’m currently learning Docker, Ruby, and Spring Boot
 - 📫 How to reach me: matthew.white42@aggiemail.usu.edu
 - ⚡ Fun fact: I love to play chess
