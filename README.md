@@ -10,6 +10,7 @@
 - 🌱 I’m currently learning Docker, Ruby, and Spring Boot
 - 📫 How to reach me: matthew.white42@aggiemail.usu.edu
 - ⚡ Fun fact: I love to play chess
+- view my config files [here](configFiles)
 
 ---
 
