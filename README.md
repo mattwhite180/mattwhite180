@@ -1,4 +1,4 @@
-![usu](usu.png)
+![usu](https://github.com/mattwhite180/mattwhite180/blob/master/usu.png)
 
 # Matthew White
 
