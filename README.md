@@ -1,4 +1,4 @@
-![usu](banner.png)
+![usu](usu.png)
 
 # Matthew White
 
