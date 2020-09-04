@@ -25,5 +25,7 @@
 ---
 
 [Where I got GitHub stats cards](https://github.com/anuraghazra/github-readme-stats)
+
 [Where I got GitHub stats badges](https://badges.pufler.dev)
+
 [Where I got shields](https://shields.io/)
