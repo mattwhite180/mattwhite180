@@ -4,7 +4,6 @@
 
 [![Years Badge](https://badges.pufler.dev/years/puf17640)](https://badges.pufler.dev)
 [![Repos Badge](https://badges.pufler.dev/repos/mattwhite180)](https://badges.pufler.dev)
-[![Commits Badge](https://badges.pufler.dev/commits/monthly/puf17640)](https://badges.pufler.dev)
 
 [![Linux Badge](https://img.shields.io/badge/OS-Linux-informational?style=plastic&logo=linux&logoColor=green&color=green)](https://shields.io/)
 [![Bash Badge](https://img.shields.io/badge/Bash-Shell-informational?style=plastic&logo=https://simpleicons.org/icons/gnubash.svg&logoColor=red&color=red)](https://shields.io/)
