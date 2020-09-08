@@ -12,7 +12,7 @@ other='fish'
 webdev='apache2 nodejs npm'
 chess='stockfish polyglot uci2wb xboard gnuchess'
 vbox='virtualbox menu vde2 virtualbox-guest-additions-iso menu-l10n qemu-kvm qemu vde2-cryptcab'
-cpp='libgtest-dev cmake gcc'
+cpp='libgtest-dev cmake gcc g++ clang-format-10'
 
 declare -A installList
 
