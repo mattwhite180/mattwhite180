@@ -26,7 +26,7 @@ INVERTED_BACKGROUND=7
 git_prompt() {
     if [[ -n $(git status 2> /dev/null) ]]
     then
-        echo -n "($(git branch --show-current 2> /dev/null)"
+        echo -n "($(git branch | awk '/\*/ { print $2; }')"
         if [[ $(git status -s 2> /dev/null | wc | awk '{print $1}') -gt 0 ]]
         then
             echo -n "[$(git status -s 2> /dev/null | wc | awk '{print $1}')])"
