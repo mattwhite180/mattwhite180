@@ -29,7 +29,7 @@ installList[python]=$python
 installList[other]=$other
 installList[webdev]=$webdev
 installList[chess]=$chess
-installList[vbox]=$vbox
+#installList[vbox]=$vbox
 installList[cpp]=$cpp
 # Comment out lines above here you don't want
 #############################################
