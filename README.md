@@ -9,7 +9,7 @@
 ---
 
 - 🔭 I’m currently working on some personal full stack development projects
-- 🌱 I’m currently learning Docker, Ruby, and Spring Boot
+- 🌱 I’m currently learning Docker, bash, and Spring Boot
 - 📫 How to reach me: matthew.white42@aggiemail.usu.edu
 - ⚡ Fun fact: I love to play chess
 - 🔧 view my config files [here](https://github.com/mattwhite180/mattwhite180/tree/master/configFiles)
