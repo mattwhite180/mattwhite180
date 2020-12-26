@@ -13,6 +13,7 @@
 - 📫 How to reach me: matthew.white42@aggiemail.usu.edu
 - ⚡ Fun fact: I love to play chess
 - 🔧 view my config files [here](https://github.com/mattwhite180/mattwhite180/tree/master/configFiles)
+- [tutorials](https://github.com/mattwhite180/mattwhite180/tree/master/tutorials)
 
 ---
 
