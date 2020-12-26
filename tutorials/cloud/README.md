@@ -12,5 +12,5 @@ print(2**2)
 ## TABLE
 |    TODO    |         windows        |          linux          |
 |------------|------------------------|-------------------------|
-| install me | [link](www.google.com) | [execute code](file.sh) |
+| install me | [link](https://www.google.com) | [execute code](file.sh) |
 | run        | windows --> start      | `bash file.sh`          |
