@@ -53,7 +53,7 @@ Your program should get to here
 docker.credentials.errors.InitializationError: docker-credential-desktop.exe not installed or not available in PATH
 ```
 
-here is how you can fix it
+here is how you can fix it:
 `rm ~/.docker/config.json`
 
 
