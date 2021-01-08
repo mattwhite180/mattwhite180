@@ -21,7 +21,7 @@ declare -A installList
 installList[utilities]=$utilities
 installList[fun]=$fun
 installList[emacs]=$emacs
-#installList[gnome]=$gnome
+installList[gnome]=$gnome
 installList[java]=$java
 installList[dev]=$dev
 installList[zsh]=$zsh
