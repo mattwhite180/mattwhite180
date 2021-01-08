@@ -1,4 +1,4 @@
-# add the user `mattw` to pi
+# add the user `mattw` to raspberry pi
 
 ```bash
 sudo adduser mattw
