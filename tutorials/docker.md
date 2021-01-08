@@ -47,6 +47,16 @@ Your program should get to here
 
 ![This is where it should freeze](docker_images/freezeHere.png)
 
+
+### if `Docker-compose up` fails
+```
+docker.credentials.errors.InitializationError: docker-credential-desktop.exe not installed or not available in PATH
+```
+
+here is how you can fix it
+`rm ~/.docker/config.json`
+
+
 Do the following steps while it ```docker-compose up``` is running in the background:
 
 On a new window execute the command ```docker ps```
