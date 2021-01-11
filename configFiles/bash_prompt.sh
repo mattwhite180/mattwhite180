@@ -36,16 +36,16 @@ git_prompt() {
     fi
 }
 
-PROMPT_DATE="\[\033["$PURPLE"m\][\d] "
-PROMPT_USERNAME="\[\033["$BLUE"m\]\u"
-PROMPT_AT="\[\033["$GREEN"m\]@"
-PROMPT_HOSTNAME="\[\033["$RED"m\]\h"
-PROMPT_COLON="\[\033[00m\]:"
-PROMPT_WORKDIR="\[\033[;"$UNDERLINED";"$YELLOW"m\]\w"
-PROMPT_GIT="\[\033["$NORMAL_TEXT";"$CYAN"m\] \$(git_prompt)"
-PROMPT_NEWLINE="\[\033["$NORMAL_TEXT";"$CYAN"m\]\n"
-PROMPT_SYMBOL="\[\033["$GREEN"m\][\$]: "
-PROMPT_CLEANUP="\[\033["$WHITE"m\]"
+PROMPT_DATE="\[\e["$PURPLE"m\][\d] "
+PROMPT_USERNAME="\[\e["$BLUE"m\]\u"
+PROMPT_AT="\[\e["$GREEN"m\]@"
+PROMPT_HOSTNAME="\[\e["$RED"m\]\h"
+PROMPT_COLON="\[\e[00m\]:"
+PROMPT_WORKDIR="\[\e[;"$UNDERLINED";"$YELLOW"m\]\w"
+PROMPT_GIT="\[\e["$NORMAL_TEXT";"$CYAN"m\] \$(git_prompt)"
+PROMPT_NEWLINE="\[\e["$NORMAL_TEXT";"$CYAN"m\]\n"
+PROMPT_SYMBOL="\[\e["$GREEN"m\][\$]: "
+PROMPT_CLEANUP="\[\e["$WHITE"m\]"
 
 MY_PROMPT=$PROMPT_DATE
 MY_PROMPT+=$PROMPT_USERNAME
