@@ -9,6 +9,7 @@ dev='libffi-dev liblzma-dev libexpat1-dev libbz2-dev libdb5.3-dev libgdbm-dev li
 zsh='zsh zsh-common zsh-dev zsh-doc zsh-syntax-highlighting zsh-theme-powerlevel9k'
 python='ipython3 python3 python3-pip black python3-dev python3-matplotlib python3-numpy'
 other='fish'
+docker='docker.io docker-engine docker-compose'
 webdev='apache2 nodejs npm'
 chess='stockfish polyglot uci2wb xboard gnuchess'
 vbox='virtualbox menu vde2 virtualbox-guest-additions-iso menu-l10n qemu-kvm qemu vde2-cryptcab'
@@ -31,6 +32,7 @@ installList[webdev]=$webdev
 installList[chess]=$chess
 #installList[vbox]=$vbox
 installList[cpp]=$cpp
+installList[docker]=$docker
 # Comment out lines above here you don't want
 #############################################
 
@@ -72,6 +74,9 @@ done
 ##################
 ### Extra software
 figlet 'installing Extras'
+
+sudo npm install -g @angular/cli angular/common @angular-devkit/build-angular
+
 
 # Visual Studio Code
 #snap install code --classic
