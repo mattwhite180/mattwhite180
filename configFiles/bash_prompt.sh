@@ -59,3 +59,12 @@ MY_PROMPT+=$PROMPT_SYMBOL
 MY_PROMPT+=$PROMPT_CLEANUP
 
 export PS1=$MY_PROMPT
+
+# Add this file to your home directory as .bash_prompt.sh
+#
+# Add the following lines to the end of your ~/.bashrc file
+#
+# if [ -f ~/.bash_prompt.sh ]; then
+#    . ~/.bash_prompt.sh
+# fi
+
