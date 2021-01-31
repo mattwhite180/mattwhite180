@@ -2,7 +2,7 @@
 
 ## CHANGE `MainActivity` from `WearableActivity` to  `AppCompatActivity`
 * remove `setAmbientEnabled();`
-
+* you may need to add `import androidx.appcompat.app.AppCompatActivity;`
 | Before | After |
 |--------|-------|
 | ![mainActivity](mainactivity-before.png) | ![mainActivity](mainactivity-after.png)
