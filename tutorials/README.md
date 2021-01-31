@@ -5,4 +5,4 @@
 - ## [vscode-vbox](https://github.com/mattwhite180/mattwhite180/tree/master/tutorials/vscode-vbox.md)
 - ## [docker](https://github.com/mattwhite180/mattwhite180/tree/master/tutorials/docker.md)
 - ## [git clone fails](https://github.com/mattwhite180/mattwhite180/tree/master/tutorials/git_clone_fails.md)
-- ## [app watch setup](https://github.com/mattwhite180/mattwhite180/tree/master/tutorials/app/README.md)
+- ## [app watch setup](https://github.com/mattwhite180/mattwhite180/blob/master/tutorials/app/README.md)
