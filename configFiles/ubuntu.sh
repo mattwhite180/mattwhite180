@@ -14,11 +14,13 @@ webdev='apache2 nodejs npm'
 chess='stockfish polyglot uci2wb xboard gnuchess'
 vbox='virtualbox menu vde2 virtualbox-guest-additions-iso menu-l10n qemu-kvm qemu vde2-cryptcab'
 cpp='libgtest-dev cmake gcc g++ clang-format-10'
+video='vlc gimp'
 
 declare -A installList
 
 #############################################
 # Comment out lines below here you don't want
+
 installList[utilities]=$utilities
 installList[fun]=$fun
 installList[emacs]=$emacs
@@ -33,6 +35,7 @@ installList[chess]=$chess
 #installList[vbox]=$vbox
 installList[cpp]=$cpp
 installList[docker]=$docker
+installList[video]=$video
 # Comment out lines above here you don't want
 #############################################
 
