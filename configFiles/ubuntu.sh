@@ -23,19 +23,19 @@ declare -A installList
 
 installList[utilities]=$utilities
 installList[fun]=$fun
-installList[emacs]=$emacs
-installList[gnome]=$gnome
+#installList[emacs]=$emacs
+#installList[gnome]=$gnome
 installList[java]=$java
 installList[dev]=$dev
-installList[zsh]=$zsh
+#installList[zsh]=$zsh
 installList[python]=$python
 installList[other]=$other
 installList[webdev]=$webdev
-installList[chess]=$chess
+#installList[chess]=$chess
 #installList[vbox]=$vbox
 installList[cpp]=$cpp
 installList[docker]=$docker
-installList[video]=$video
+#installList[video]=$video
 # Comment out lines above here you don't want
 #############################################
 
@@ -78,7 +78,7 @@ done
 ### Extra software
 figlet 'installing Extras'
 
-sudo npm install -g @angular/cli angular/common @angular-devkit/build-angular
+#sudo npm install -g @angular/cli angular/common @angular-devkit/build-angular
 
 
 # Visual Studio Code

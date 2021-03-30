@@ -1,0 +1,10 @@
+    1  timedatectl
+    2  sudo systemctl status systemd-timesyncd.service
+    3  systemctl daemon-reload
+    4  htpdate
+    5  sudo apt install htpdate
+    6  htpdate
+    7  sudo timedatectl
+    8  poweroff 
+    9  history
+   10  history > timefix.txt

@@ -1,0 +1,8 @@
+git config --global user.name "mattwhite180"
+git config --global user.email matthew.white42@aggiemail.usu.edu
+git config --global core.editor "vim"
+git config --global credential.helper 'cache --timeout 86400'
+git config --global color.ui auto
+git config --global pull.rebase false
+git config --global http.sslVerify false
+#git clone https://github.com/mattwhite180/box
