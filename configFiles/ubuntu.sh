@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-utilities='vim git wget gparted apt-transport-https net-tools htop tree curl screenfetch neofetch synaptic ufw'
+utilities='vim neovim git wget gparted apt-transport-https net-tools htop tree curl screenfetch neofetch synaptic ufw'
 fun='cowsay fortune thefuck lolcat'
 emacs='emacs emacs-goodies-el'
 gnome='gnome-tweaks gnome-shell-extensions'
@@ -15,6 +15,7 @@ chess='stockfish polyglot uci2wb xboard gnuchess'
 vbox='virtualbox menu vde2 virtualbox-guest-additions-iso menu-l10n qemu-kvm qemu vde2-cryptcab'
 cpp='libgtest-dev cmake gcc g++ clang-format-10'
 video='vlc gimp ffmpeg'
+docker='docker docker-compose docker-doc docker.io"
 
 declare -A installList
 

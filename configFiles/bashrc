@@ -147,6 +147,8 @@ ipAddress () {
 	hostname -I | awk '{print $1}'
 }
 
+alias v="nvim"
+
 #export PATH=$PATH:/snap/bin
 #export PATH=$PATH:~/go/bin
 
