@@ -15,12 +15,12 @@ chess='stockfish polyglot uci2wb xboard gnuchess'
 vbox='virtualbox menu vde2 virtualbox-guest-additions-iso menu-l10n qemu-kvm qemu vde2-cryptcab'
 cpp='libgtest-dev cmake gcc g++ clang-format-10'
 video='vlc gimp ffmpeg'
-docker='docker docker-compose docker-doc docker.io"
+docker='docker docker-compose docker-doc docker.io'
 
 declare -A installList
 
 #############################################
-# Comment out lines below here you don't want
+# Comment out lines below here you dont want
 
 installList[utilities]=$utilities
 installList[fun]=$fun
