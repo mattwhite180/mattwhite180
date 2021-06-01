@@ -24,7 +24,7 @@ declare -A installList
 
 installList[utilities]=$utilities
 installList[fun]=$fun
-#installList[emacs]=$emacs
+installList[emacs]=$emacs
 #installList[gnome]=$gnome
 installList[java]=$java
 installList[dev]=$dev
@@ -32,7 +32,7 @@ installList[dev]=$dev
 installList[python]=$python
 installList[other]=$other
 installList[webdev]=$webdev
-#installList[chess]=$chess
+installList[chess]=$chess
 #installList[vbox]=$vbox
 installList[cpp]=$cpp
 installList[docker]=$docker
