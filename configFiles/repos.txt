@@ -1,0 +1,4 @@
+cd ~/
+git clone ssh://git@github.com/mattwhite180/emailgames101
+git clone ssh://git@github.com/mattwhite180/goalsandplans
+git clone ssh://git@github.com/mattwhite180/gp-ebs
