@@ -147,6 +147,10 @@ ipAddress () {
 	hostname -I | awk '{print $1}'
 }
 
+update () {
+	sudo apt update && sudo apt upgrade -y
+}
+
 alias v="nvim"
 
 #export PATH=$PATH:/snap/bin
